@@ -2,7 +2,7 @@
 
 ## Abstract
 
-The analysis performed in this [work](https://cs.stanford.edu/people/jure/pubs/triads-chi10.pdf) enabled the authors to evaluate social psychological theories of balance and status in social networks. This work allows us to better understanding and predicting the signs of relationships in social networks. To take this analysis one step further, we would like to observe how well these social theories hold up when the network context has changed. Moreover, we would also like to perceive the similarities and differences in analyzing the signs of relationships between entities created by people instead of the people themselves. For these two cases, we will be using a bitcoin dataset to provide a network in a financial setting (economic context) and a Reddit dataset that presents a graph of subreddits created by users. Our analysis would include observing and also presenting statistics about the number of balanced and unbalanced triads in the data and thereby interpreting the validity of balance and status theory and corroborate or contradicting the claims of the authors made in the original paper.
+The analysis performed in this [work](https://cs.stanford.edu/people/jure/pubs/triads-chi10.pdf) enabled the authors to evaluate the social psychological theories of balance and status in social networks. This work allows us to better understanding and predicting the signs of relationships in social networks. To take this analysis one step further, we would like to observe how well these social theories hold up when the network context has changed. Moreover, we would also like to perceive the similarities and differences in analyzing the signs of relationships between entities created by people instead of the people themselves. For these two cases, we will be using a bitcoin dataset to provide a network in a financial setting (economic context) and a Reddit dataset that presents a graph of subreddits created by users. Our analysis would include observing and also presenting statistics about the number of balanced and unbalanced triads in the data and thereby interpreting the validity of balance and status theory and corroborate or contradicting the claims of the authors made in the original paper.
 
 ## Research Questions
 
@@ -15,6 +15,10 @@ For this extension, we are going to use the following two datasets.
 In order to answer the first question we use [soc-sign-bitcoinalpha.csv.gz](http://snap.stanford.edu/data/soc-sign-bitcoin-alpha.html) dataset and use [soc-redditHyperlinks-body.tsv](http://snap.stanford.edu/data/soc-RedditHyperlinks.html) for the second question.
 
 ## Methods
+
+### Data Collection and Graph Building
+
+We shall use the datasets from the above-provided URLs. As the datasets are already clean, we do not need to any preprocessing and build the graphs directly.
 
 ### Undirected Analysis (to evaluate 'balance' theory)
 
@@ -36,6 +40,9 @@ In order to answer the first question we use [soc-sign-bitcoinalpha.csv.gz](http
 ## Proposed Timeline and Organization within the team
 
 The below image shows the timeline and organization of tasks between the team members.
+
+In summary, all the team members will work on performing the 3 types of analysis during the first week. In the second week, Nick and Ravinithesh will work on their replication while Yasaman prepares the draft for the data story. In the third week, all the members will work on formatting the code and the data story and create the script for the video. In week 4, all the team members will be working on creating the video.
+
 ![tasks_organization_data_nuage](./images/tasks_organization.png)
 
 #### Notes
